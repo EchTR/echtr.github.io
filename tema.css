@@ -48,10 +48,11 @@
 	.bMenu{display: none;}
 	.rMenu{display: block;}
 	.rMenuI{display: none;}
+	.p1{display:none;}
 	body{margin: 0px;padding: 0px;}
 }
 @media only screen and (min-width: 400px){
-	.bMenu{display: block;}
+	.bMenu{display: none;}
 	.rMenu{display: none;}
 	.rMenuI{display: none;}
 }
