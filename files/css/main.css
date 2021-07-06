@@ -1,0 +1,41 @@
+html, body{
+  background-image: url("example.jpg");
+  width: 100%;
+}
+.mun6024{
+  margin-top: 150px;
+  text-align: center;
+}
+.span6024{
+  color: red;
+}
+.wemun1{
+	color: red;
+}
+.wemun2{
+	color: green;
+}
+.altbar{
+	height: 50px;
+	padding-top: 15px;
+}
+.fab{
+	transition: 0.5s;
+}
+.fab:hover{
+	color: black;
+	cursor: pointer;
+}
+.committees-container{
+	border-right: 1px solid #3498db;
+	border-bottom: 1px solid #3498db;
+	color: black;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+.cmt_mtext{
+	margin-top: 1%;
+	margin-left: 3%;
+	position: absolute;
+	font-size: 150%;
+}
