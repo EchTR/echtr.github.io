@@ -39,3 +39,12 @@ html, body{
 	position: absolute;
 	font-size: 150%;
 }
+.aplct_btn{
+
+}
+.gorunmezlik{
+	display: none;
+}
+.gorunurluk{
+	display: block;
+}
