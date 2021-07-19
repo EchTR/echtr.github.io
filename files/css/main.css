@@ -19,10 +19,10 @@ html, body{
 	height: 50px;
 	padding-top: 15px;
 }
-.fab{
+.fab, .fas{
 	transition: 0.5s;
 }
-.fab:hover{
+.fab:hover, .fas:hover{
 	color: black;
 	cursor: pointer;
 }
@@ -44,7 +44,21 @@ html, body{
 }
 .gorunmezlik{
 	display: none;
+	width: 100%;
+	 height: 350px;
 }
 .gorunurluk{
 	display: block;
+	width: 100%;
+	 height: 350px;
+}
+.form1{width: 100%; height: 350px;}
+.applink{
+	color: white;
+}
+.applink:hover{
+	color: white;
+}
+.appli{
+	margin-top: 12px;
 }

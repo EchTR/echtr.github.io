@@ -18,7 +18,7 @@
 		<div class = "container-fluid bg-dark text-light fixed-top" style = "text-align: center;">
 			<div class = "row">
 				<div class = "col">
-					Hello, world! Test version id: v20
+					Check out our instagram page: @egeunigvojmun
 				</div>
 			</div>
 		</div>
@@ -104,10 +104,17 @@ The Council is made up of 47 United Nations Member States which are elected by t
   <div class = "altbar container-fluid bg-primary text-white" style = "margin-top: 100px;">
         <span style = "">(c) 2021</span>
          <i class="fab fa-instagram" style = "float: right; font-size: 150%;" onclick = "ac_fonk()"></i>
-         <i class="fab fa-twitter" style = "float: right; font-size: 150%; margin-right:1%;"></i>
+         <i class="fas fa-envelope-square" style = "float: right; font-size: 150%; margin-right:1%;" onclick = "email()"></i>
   </div>
 </body>
  <script type="text/javascript">
+  function email(){
+      navigator.clipboard.writeText('egeunigvojmun@gmail.com').then(function () {
+        alert('Başarılı! E-Mail adresi kopyalandı!')
+      }, function () {
+          alert('Kopyalama başarısız! Adresi manuel olarak yazın:  egeunigvojmun@gmail.com')
+      });
+    }
     function ac_fonk(){
       window.open("https://www.instagram.com/egejmun/","_blank").focus();
     }
